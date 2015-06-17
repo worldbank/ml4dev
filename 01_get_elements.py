@@ -4,9 +4,9 @@ as a way (we want to be able to compute a bounding box and centroid to
 improve the CV analysis).
 '''
 
+from utils.geo import ELEMENTS_FILENAME
 from utils.overpass_client import OverpassClient
-
-ELEMENTS_FILENAME = 'data/elements.json'
+import json
 
 # The operator (._;>;); asks for the nodes and ways that are referred by
 # the relations and ways in the result.
@@ -30,10 +30,8 @@ us_e = -66.9326
 # queries. This means (samples-1)^2 boxes.
 samples = 11  # 100 boxes
 
-# I ran some stats. Total elements: 1,434,747
-# Total nodes = 1,264,725 (88%), total ways = 170,022 (12%)
-# About 7.5 nodes per way.
-overpass_client = OverpassClient()
+# Total = 1,435,427
+overpass_client = OverpassClient(endpoint='fr')
 elements = overpass_client.get_bbox_elements(
     ql_template=ql_pitch,
     bb_s=us_s, bb_w=us_w, bb_n=us_n, bb_e=us_e,

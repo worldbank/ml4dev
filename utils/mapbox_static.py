@@ -38,6 +38,10 @@ class MapboxStatic(object):
         filename = '%s_%s.%s' % (self._namespace, element_id, MAPBOX_FORMAT)
         return os.path.join(self._root_folder, filename)
 
+    def _get_filesize(self, filepath):
+        statinfo = os.stat(filepath)
+        return statinfo.st_size
+
     def get_url(self, latitude, longitude):
         return MAPBOX_ENDPOINT.format(
             mapid=MAPBOX_MAPID,
@@ -56,3 +60,11 @@ class MapboxStatic(object):
             return
         print '[mapbox static] Donwloading tile (%s).' % filepath
         urllib.urlretrieve(url=url, filename=filepath)
+
+        # Detect if we have actual imagery here
+        filesize = self._get_filesize(filepath=filepath)
+        if filesize < 50000:
+            print 'Deleting downloaded file, it looks like an empty image.'
+            os.remove(filepath)
+            return False
+        return True

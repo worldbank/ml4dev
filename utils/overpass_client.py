@@ -2,24 +2,33 @@ from restwice import RestClient
 from restwice import MemcacheLocal
 import numpy as np
 
-ENDPOINT = 'http://overpass-api.de/api/interpreter'
-MEMCACHE_NAMESPACE = 'overpass'
-REQUESTS_TIMEOUT = 60 * 5  # 5 minutes
+OVERPASS_ENDPOINTS = {
+    'de': 'http://overpass-api.de/api/interpreter',
+    'ru': 'http://overpass.osm.rambler.ru/cgi/',
+    'fr': 'http://api.openstreetmap.fr/oapi/interpreter'}
+
+OVERPASS_MEMCACHE_NAMESPACE = 'overpass'
+OVERPASS_REQUESTS_TIMEOUT = 60 * 5  # 5 minutes
 
 
 class OverpassClient(object):
-    def __init__(self):
+    def __init__(self, endpoint='de'):
         self._rest_client = RestClient()
-        self._rest_client.set_endpoint(endpoint=ENDPOINT)
+
+        # The DE endpoint was randomly failing to us, and RU never worked.
+        # From this option we can better control the endpoint, and the queries
+        # will be automatically cached independently.
+        endpoint_url = OVERPASS_ENDPOINTS.get(endpoint)
+        self._rest_client.set_endpoint(endpoint=endpoint_url)
 
         # Set better timeout value
-        self._client_settings = {'timeout': REQUESTS_TIMEOUT}
+        self._client_settings = {'timeout': OVERPASS_REQUESTS_TIMEOUT}
 
         # Set local caching
         memcache_client = MemcacheLocal(root_folder='_cache_overpass')
         self._rest_client.enable_cache(
             memcache_client=memcache_client,
-            memcache_namespace=MEMCACHE_NAMESPACE)
+            memcache_namespace=OVERPASS_MEMCACHE_NAMESPACE)
 
     def _get_data(self, ql_text=None):
         return '[out:json];' + ql_text
