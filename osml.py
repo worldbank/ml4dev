@@ -5,25 +5,23 @@ improve the CV analysis).
 '''
 
 from random import shuffle
-from shapely.geometry import Polygon
 from utils.mapbox_static import MapboxStatic
 from utils.overpass_client import OverpassClient
+from utils.geo import get_ways_data
 import json
 import numpy as np
 import operator
 import os
 
-def get_ql_text(bb_s, bb_w, bb_n, bb_e):
-    # The operator (._;>;); asks for the nodes and ways that are referred by
-    # the relations and ways in the result.
-    ql_pitch = '''\
-    way
-      [leisure=pitch]
-      ({bb_s},{bb_w},{bb_n},{bb_e});
-    (._;>;);
-    out;
-    '''
-    return ql_pitch.format(bb_s=bb_s, bb_w=bb_w, bb_n=bb_n, bb_e=bb_e)
+# The operator (._;>;); asks for the nodes and ways that are referred by
+# the relations and ways in the result.
+ql_pitch = '''\
+way
+  [leisure=pitch]
+  ({query_bb_s},{query_bb_w},{query_bb_n},{query_bb_e});
+(._;>;);
+out;
+'''
 
 # For the continental US bbox we use the one provided by:
 # https://www.flickr.com/places/info/24875662
@@ -39,27 +37,14 @@ overpass_client = OverpassClient()
 # too big for a single query (it timeouts), we're gonna split in a smaller
 # queries. This means (samples-1)^2 boxes.
 samples = 6  # 25 boxes
-lat_range = np.linspace(us_s, us_n, num=samples)
-lon_range = np.linspace(us_w, us_e, num=samples)
 
-elements = []
-for lat_index in range(samples - 1):
-    for lon_index in range(samples - 1):
-        bb_s = lat_range[lat_index]
-        bb_n = lat_range[lat_index + 1]
-        bb_w = lon_range[lon_index]
-        bb_e = lon_range[lon_index + 1]
-        ql_text = get_ql_text(bb_s=bb_s, bb_w=bb_w, bb_n=bb_n, bb_e=bb_e)
-        # Safe to run multimple times, results are cached
-        result = overpass_client.query(ql_text=ql_text)
-        partial_elements = result.get('elements', [])
-        print 'Partials elements found: %d' % len(partial_elements)
-        elements += partial_elements
-
-# I ran some stats. Total elements: 1434747
-# Total nodes = 1264725 (88%), total ways = 170022 (12%)
+# I ran some stats. Total elements: 1,434,747
+# Total nodes = 1,264,725 (88%), total ways = 170,022 (12%)
 # About 7.5 nodes per way.
+elements = overpass_client.get_bbox_elements(ql_template=ql_pitch, bb_s=us_s, bb_w=us_w, bb_n=us_n, bb_e=us_e, samples=samples)
 print 'Total elements found: %d' % len(elements)
+
+exit()
 
 # Randomize elements list to make sure we don't download all pics from the
 # same sample
@@ -103,30 +88,7 @@ for element in elements:
 # 10. skateboard -- 662 ways
 # sorted_sport_stats = sorted(sport_stats.items(), key=operator.itemgetter(1))
 # print sorted_sport_stats
-
-# Go through the ways, build the polygon, and compute the centroid that we'll
-# use to download the mapbox satellite image
-if os.path.isfile('ways_data.json'):
-    with open('ways_data.json', 'r') as f:
-        ways_data = json.load(f)
-else:
-    print 'Doing geo...'
-    ways_data = {}
-    for element in elements:
-        element_type = element.get('type')
-        if element_type == 'way':
-            nodes = element.get('nodes')
-            if len(nodes) >= 3:
-                exterior = [(coords[node].get('lat'), coords[node].get('lon')) \
-                    for node in nodes]
-                way_polygon = Polygon(exterior)
-                element_id = element.get('id')
-                ways_data[element_id] = {
-                    'bounds': way_polygon.bounds,
-                    'lat': way_polygon.centroid.x,
-                    'lon': way_polygon.centroid.y}
-    with open('ways_data.json', 'w') as f:
-        json.dump(ways_data, f, indent=2)
+ways_data = get_ways_data(elements=elements, coords=coords)
 
 # Now we're gonna download the satellite images for these locations
 mapbox_static = MapboxStatic(
