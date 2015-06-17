@@ -29,3 +29,7 @@ step4:
 step5:
 	# Draw the bbox on the test files
 	python 05_draw_bbox.py
+
+step6:
+	# Get some random images
+	python 06_get_negatives.py --count 25
