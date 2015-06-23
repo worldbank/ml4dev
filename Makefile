@@ -25,6 +25,8 @@ step4:
 	python 04_download_satellite.py --sport volleyball --count 10
 	python 04_download_satellite.py --sport multi --count 10
 	python 04_download_satellite.py --sport softball --count 10
+	# mv satellite/*png satellite/training/
+	# mv satellite/*png satellite/testing/
 
 step5:
 	# Draw the bbox on the test files
@@ -33,3 +35,13 @@ step5:
 step6:
 	# Get some random images
 	python 06_get_negatives.py --count 25
+	find satellite/negative -type f > negative.txt
+
+createsamples:
+	opencv_createsamples -info info_baseball.dat -num 99 -vec info_baseball.vec
+	opencv_createsamples -info info_basketball.dat -num 100 -vec info_basketball.vec
+	opencv_createsamples -info info_tennis.dat -num 9998 -vec info_tennis.vec
+	opencv_traincascade -data output -vec info_baseball.vec -bg negative.txt -numPos 99 -numNeg 100
+	opencv_traincascade -data output -vec info_basketball.vec -bg negative.txt -numPos 100 -numNeg 100
+	opencv_traincascade -data output -vec info_tennis.vec -bg negative.txt -numPos 9998 -numNeg 5000
+
