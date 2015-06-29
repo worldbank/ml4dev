@@ -27,8 +27,8 @@ for tennis_cascade_file in tennis_cascade_files:
     tennis_cascade = cv2.CascadeClassifier(tennis_cascade_file)
 
     # Open
-    positive_f = open(tennis_cascade[:-4] + '_positive.csv', 'w')
-    negative_f = open(tennis_cascade[:-4] + '_negative.csv', 'w')
+    positive_f = open(tennis_cascade_file[:-4] + '_positive.csv', 'w')
+    negative_f = open(tennis_cascade_file[:-4] + '_negative.csv', 'w')
     positive_writer = csv.writer(positive_f)
     negative_writer = csv.writer(negative_f)
 
