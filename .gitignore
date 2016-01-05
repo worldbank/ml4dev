@@ -57,5 +57,5 @@ docs/_build/
 # PyBuilder
 target/
 
-#satellite images
-*.png
+#sample satellite images
+samples-4000/*.png
