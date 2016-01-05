@@ -1,6 +1,6 @@
 '''
 See this for some meta info about the basemap:
-http://api.tiles.mapbox.com/v4/zugaldia.mfecmd32.json?access_token=pk.eyJ1IjoienVnYWxkaWEiLCJhIjoib1k5LUtvUSJ9.w8hUgggzinjPPHrKQasQrw
+http://api.tiles.mapbox.com/v4/${MAPBOX_MAPID}.json?access_token=${MAPBOX_ACCESS_TOKEN}
 '''
 
 import os
@@ -13,7 +13,7 @@ MAPBOX_ENDPOINT = (
 
 # Params
 MAPBOX_MAPID = 'zugaldia.mfecmd32'
-MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoienVnYWxkaWEiLCJhIjoib1k5LUtvUSJ9.w8hUgggzinjPPHrKQasQrw'
+MAPBOX_ACCESS_TOKEN = os.environ["mapbox_token"]
 MAPBOX_FORMAT = 'png'
 MAPBOX_WIDTH = '1280'
 MAPBOX_HEIGHT = '1280'
