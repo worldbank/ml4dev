@@ -4,6 +4,7 @@
 
 <span>Prepared by Antonio Zugaldia</span>
 
+<span>All code is MIT licensed, and the text content is CC-BY. Please feel free to send edits and updates via Pull Requests.</span>
 
 <span>Foreword</span>
 =====================
