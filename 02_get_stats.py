@@ -11,7 +11,7 @@ print 'Loading %s...' % ELEMENTS_FILENAME
 with open(ELEMENTS_FILENAME, 'r') as f:
     elements = json.load(f)
 
-Total elements found: 
+#Total elements found: 
 
 # Total = 1,435,427
 print 'Total elements found: %d' % len(elements)
