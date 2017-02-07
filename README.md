@@ -2,7 +2,7 @@
 
 <span>A method to Learn and Identify Earth Features from Satellite Images</span>
 
-<span>Prepared by Antonio Zugaldia</span>
+<span>Prepared by Antonio Zugaldia; commissioned by the Big Data team, Innovation Labs, the World Bank</span>
 
 <span>All code is MIT licensed, and the text content is CC-BY. Please feel free to send edits and updates via Pull Requests.</span>
 
