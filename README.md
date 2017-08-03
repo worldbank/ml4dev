@@ -1042,7 +1042,7 @@
 
 <span>We have set a GitHub repository</span><sup>[\[34\]](#ftnt34)</sup><span> for the code of this project:</span>
 
--   <span>Machine Learning for Dev: </span><span class="c15">[https://github.com/zugaldia/ml4dev](https://www.google.com/url?q=https://github.com/zugaldia/ml4dev&sa=D&usg=AFQjCNErj_8y8tyVdStsBD3Jun7quMAijQ)</span><span> </span>
+-   <span>Machine Learning for Dev: </span><span class="c15">[https://github.com/worldbank/ml4dev](https://github.com/worldbank/ml4dev&sa=D)</span><span> </span>
 
 <span></span>
 
