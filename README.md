@@ -925,7 +925,7 @@
 
 <span></span>
 
-<span>During the time of this assignment, Google held its annual developer conference, Google I/O 2015, where </span><span class="c15">[machine learning related topics](https://www.google.com/url?q=http://techcrunch.com/2015/05/31/io-spotlights-googles-machine-learning-smarts/?ncid%3Drss%23.1j7bir:c0bG&sa=D&usg=AFQjCNGk_DlCQ7MKWYhZC8nydEHTMyRAMg)</span><span> were at the core of the new products and development</span><span>. This section summarizes the current status of tools on Google’s Cloud to support machine learning processes and some of the announcements made during the conference.</span>
+<span>During the time of this assignment, Google held its annual developer conference, Google I/O 2015, where </span><span class="c15">[machine learning related topics](http://techcrunch.com/2015/05/31/io-spotlights-googles-machine-learning-smarts/?ncid%3Drss%23.1j7bir:c0bG)</span><span> were at the core of the new products and development</span><span>. This section summarizes the current status of tools on Google’s Cloud to support machine learning processes and some of the announcements made during the conference.</span>
 
 <span></span>
 
@@ -1022,7 +1022,7 @@
 
 <span>If there’s any interest in trying any of these technologies, we can provide a $500 discount code that was shared with attendees. To redeem it, please follow the following instructions (this offer must be claimed by </span><span class="c25">June 15th</span><span>):</span>
 
-1.  <span>Go to </span><span class="c15">[http://g.co/CloudStarterCredit](https://www.google.com/url?q=http://g.co/CloudStarterCredit&sa=D&usg=AFQjCNHV7f68FPlu6ivUgok5wpalZ5GlLA)</span><span> </span>
+1.  <span>Go to </span><span class="c15">[http://g.co/CloudStarterCredit](http://g.co/CloudStarterCredit)</span><span> </span>
 2.  <span>Click Apply Now</span>
 3.  <span>Complete the form with code: </span><span class="c47">GCP15</span>
 
@@ -1053,85 +1053,85 @@
 
 <span>These are a few good books that expand on the tools and methodologies that we’ve used throughout this document:</span>
 
--   <span class="c15">[Data Science from Scratch: First Principles with Python](https://www.google.com/url?q=http://shop.oreilly.com/product/0636920033400.do&sa=D&usg=AFQjCNENjJbXwVvzp9Sqk-6NPIjwh48WIg)</span><span>, by Joel Grus. Publisher: O'Reilly Media (release Date: April 2015).</span>
--   <span class="c15">[Learning Spark: Lightning-Fast Big Data Analysis](https://www.google.com/url?q=http://shop.oreilly.com/product/0636920028512.do&sa=D&usg=AFQjCNGs5b-zdPdgC0N9wet5JKOmD5CQOg)</span><span>, by Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia. Publisher: O'Reilly Media (release Date: January 2015).</span>
--   <span class="c15">[Advanced Analytics with Spark: Patterns for Learning from Data at Scale](https://www.google.com/url?q=http://shop.oreilly.com/product/0636920035091.do&sa=D&usg=AFQjCNGlWxc1KMa_BjQCJxGbQHfPtacwwg)</span><span>, by Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. Publisher: O'Reilly Media (release Date: April 2015).</span>
+-   <span class="c15">[Data Science from Scratch: First Principles with Python](http://shop.oreilly.com/product/0636920033400.do)</span><span>, by Joel Grus. Publisher: O'Reilly Media (release Date: April 2015).</span>
+-   <span class="c15">[Learning Spark: Lightning-Fast Big Data Analysis](http://shop.oreilly.com/product/0636920028512.do)</span><span>, by Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia. Publisher: O'Reilly Media (release Date: January 2015).</span>
+-   <span class="c15">[Advanced Analytics with Spark: Patterns for Learning from Data at Scale](http://shop.oreilly.com/product/0636920035091.do)</span><span>, by Sandy Ryza, Uri Laserson, Sean Owen, Josh Wills. Publisher: O'Reilly Media (release Date: April 2015).</span>
 
 <span></span>
 
 <span>Websites</span>
 ---------------------
 
--   <span class="c15">[Apache Spark](https://www.google.com/url?q=https://spark.apache.org/&sa=D&usg=AFQjCNG9LgiHTP_hHJlTAXB47N4q-Qt2JQ)</span><span>: Fast and general engine for large-scale data processing.</span>
--   <span class="c15">[Mahotas](https://www.google.com/url?q=http://mahotas.readthedocs.org&sa=D&usg=AFQjCNGo5xI_v4uQvHWhBAe7O7xONdY1nA)</span><span>: Computer Vision in Python.</span>
--   <span class="c15">[OpenCV](https://www.google.com/url?q=http://www.opencv.org&sa=D&usg=AFQjCNGYk_Njg5BHJmfZ6hC25FKoieSp-g)</span><span> (Open Source Computer Vision Library): An open source computer vision and machine learning software library.</span>
--   <span class="c15">[scikit-learn](https://www.google.com/url?q=http://scikit-learn.org&sa=D&usg=AFQjCNH2dhhb4jUPTAd-U-W3EOulW_AWEw)</span><span>: Machine Learning in Python.</span>
+-   <span class="c15">[Apache Spark](https://spark.apache.org/)</span><span>: Fast and general engine for large-scale data processing.</span>
+-   <span class="c15">[Mahotas](http://mahotas.readthedocs.org)</span><span>: Computer Vision in Python.</span>
+-   <span class="c15">[OpenCV](http://www.opencv.org)</span><span> (Open Source Computer Vision Library): An open source computer vision and machine learning software library.</span>
+-   <span class="c15">[scikit-learn](http://scikit-learn.org)</span><span>: Machine Learning in Python.</span>
 
 <span></span>
 
 ------------------------------------------------------------------------
 
-[\[1\]](#ftnt_ref1)<span class="c13"> </span><span class="c10">[https://en.wikipedia.org/wiki/Machine\_learning](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Machine_learning&sa=D&usg=AFQjCNGyHrOE0j7i4QL3JdG19NXl_90r3A)</span><span class="c13"> </span>
+[\[1\]](#ftnt_ref1)<span class="c13"> </span><span class="c10">[https://en.wikipedia.org/wiki/Machine\_learning](https://en.wikipedia.org/wiki/Machine_learning)</span><span class="c13"> </span>
 
-[\[2\]](#ftnt_ref2)<span class="c13"> </span><span class="c10">[http://www.opencv.org](https://www.google.com/url?q=http://www.opencv.org&sa=D&usg=AFQjCNGYk_Njg5BHJmfZ6hC25FKoieSp-g)</span><span class="c13"> </span>
+[\[2\]](#ftnt_ref2)<span class="c13"> </span><span class="c10">[http://www.opencv.org](http://www.opencv.org)</span><span class="c13"> </span>
 
-[\[3\]](#ftnt_ref3)<span class="c13"> This process is described in detail here: </span><span class="c10">[http://docs.opencv.org/doc/user\_guide/ug\_traincascade.html](https://www.google.com/url?q=http://docs.opencv.org/doc/user_guide/ug_traincascade.html&sa=D&usg=AFQjCNG3Eb-gzh-2tq1R9sp1VZOSSeqD-Q)</span><span class="c13"> </span>
+[\[3\]](#ftnt_ref3)<span class="c13"> This process is described in detail here: </span><span class="c10">[http://docs.opencv.org/doc/user\_guide/ug\_traincascade.html](http://docs.opencv.org/doc/user_guide/ug_traincascade.html)</span><span class="c13"> </span>
 
-[\[4\]](#ftnt_ref4)<span class="c13"> </span><span class="c10">[https://www.mapbox.com/commercial-satellite/](https://www.google.com/url?q=https://www.mapbox.com/commercial-satellite/&sa=D&usg=AFQjCNGFCHNLJBqqFl8-wIe83acCV3_TjA)</span><span class="c13"> </span>
+[\[4\]](#ftnt_ref4)<span class="c13"> </span><span class="c10">[https://www.mapbox.com/commercial-satellite/](https://www.mapbox.com/commercial-satellite/)</span><span class="c13"> </span>
 
-[\[5\]](#ftnt_ref5)<span class="c13"> </span><span class="c10">[http://wiki.openstreetmap.org/wiki/Overpass\_API](https://www.google.com/url?q=http://wiki.openstreetmap.org/wiki/Overpass_API&sa=D&usg=AFQjCNFizwee0VtdA_2nr6BTWMeO_XqveA)</span><span class="c13"> </span>
+[\[5\]](#ftnt_ref5)<span class="c13"> </span><span class="c10">[http://wiki.openstreetmap.org/wiki/Overpass\_API](http://wiki.openstreetmap.org/wiki/Overpass_API)</span><span class="c13"> </span>
 
-[\[6\]](#ftnt_ref6)<span class="c13"> </span><span class="c10">[https://www.flickr.com/places/info/24875662](https://www.google.com/url?q=https://www.flickr.com/places/info/24875662&sa=D&usg=AFQjCNHrFDwaXx9x2QzG0zseDrj0dwRMJQ)</span><span class="c13"> </span>
+[\[6\]](#ftnt_ref6)<span class="c13"> </span><span class="c10">[https://www.flickr.com/places/info/24875662](https://www.flickr.com/places/info/24875662)</span><span class="c13"> </span>
 
-[\[7\]](#ftnt_ref7)<span class="c13"> OpenCV detectMultiScale() minNeighbors parameter: </span><span class="c10">[http://stackoverflow.com/questions/22249579/opencv-detectmultiscale-minneighbors-parameter](https://www.google.com/url?q=http://stackoverflow.com/questions/22249579/opencv-detectmultiscale-minneighbors-parameter&sa=D&usg=AFQjCNG4ACJg-odMBGSN8T_yTZ3wRr-ZBw)</span><span class="c13"> </span>
+[\[7\]](#ftnt_ref7)<span class="c13"> OpenCV detectMultiScale() minNeighbors parameter: </span><span class="c10">[http://stackoverflow.com/questions/22249579/opencv-detectmultiscale-minneighbors-parameter](http://stackoverflow.com/questions/22249579/opencv-detectmultiscale-minneighbors-parameter)</span><span class="c13"> </span>
 
-[\[8\]](#ftnt_ref8)<span class="c13"> </span><span class="c10">[http://opencv-python-tutroals.readthedocs.org/en/latest/py\_tutorials/py\_feature2d/py\_sift\_intro/py\_sift\_intro.html](https://www.google.com/url?q=http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html&sa=D&usg=AFQjCNHryI2TAtd3R0mwjLZgWijmRcFwSw)</span><span class="c13"> </span>
+[\[8\]](#ftnt_ref8)<span class="c13"> </span><span class="c10">[http://opencv-python-tutroals.readthedocs.org/en/latest/py\_tutorials/py\_feature2d/py\_sift\_intro/py\_sift\_intro.html](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html)</span><span class="c13"> </span>
 
-[\[9\]](#ftnt_ref9)<span class="c13"> </span><span class="c10">[http://opencv-python-tutroals.readthedocs.org/en/latest/py\_tutorials/py\_feature2d/py\_surf\_intro/py\_surf\_intro.html](https://www.google.com/url?q=http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_feature2d/py_surf_intro/py_surf_intro.html&sa=D&usg=AFQjCNHEZg-KgtHV9br4m7XxRXwYtKn0DA)</span><span class="c13"> </span>
+[\[9\]](#ftnt_ref9)<span class="c13"> </span><span class="c10">[http://opencv-python-tutroals.readthedocs.org/en/latest/py\_tutorials/py\_feature2d/py\_surf\_intro/py\_surf\_intro.html](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_feature2d/py_surf_intro/py_surf_intro.html)</span><span class="c13"> </span>
 
-[\[11\]](#ftnt_ref11)<span class="c13"> </span><span class="c10">[https://databricks.com/](https://www.google.com/url?q=https://databricks.com/&sa=D&usg=AFQjCNH0J9dnhfqQ9UFBME7LxhKHBExp4A)</span><span class="c13"> </span>
+[\[11\]](#ftnt_ref11)<span class="c13"> </span><span class="c10">[https://databricks.com/](https://databricks.com/)</span><span class="c13"> </span>
 
-[\[12\]](#ftnt_ref12)<span class="c13"> </span><span class="c10">[https://developer.ibm.com/bluemix/](https://www.google.com/url?q=https://developer.ibm.com/bluemix/&sa=D&usg=AFQjCNG4uwjhYhxDIt03MqNb12wW72TxEQ)</span><span class="c13"> </span>
+[\[12\]](#ftnt_ref12)<span class="c13"> </span><span class="c10">[https://developer.ibm.com/bluemix/](https://developer.ibm.com/bluemix/)</span><span class="c13"> </span>
 
-[\[13\]](#ftnt_ref13)<span class="c13">Algorithms, Machines, and People Lab: </span><span class="c10">[https://amplab.cs.berkeley.edu](https://www.google.com/url?q=https://amplab.cs.berkeley.edu&sa=D&usg=AFQjCNHaV5sMRCGT2D6EL_TjHEC6_Z2wdA)</span><span class="c13"> </span>
+[\[13\]](#ftnt_ref13)<span class="c13">Algorithms, Machines, and People Lab: </span><span class="c10">[https://amplab.cs.berkeley.edu](https://amplab.cs.berkeley.edu)</span><span class="c13"> </span>
 
-[\[14\]](#ftnt_ref14)<span class="c13"> </span><span class="c10">[https://en.wikipedia.org/wiki/Apache\_Spark](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Apache_Spark&sa=D&usg=AFQjCNGnQS88pnPs4s1kLPU2U2yEPrMRng)</span><span class="c13"> </span>
+[\[14\]](#ftnt_ref14)<span class="c13"> </span><span class="c10">[https://en.wikipedia.org/wiki/Apache\_Spark](https://en.wikipedia.org/wiki/Apache_Spark)</span><span class="c13"> </span>
 
-[\[15\]](#ftnt_ref15)<span class="c13"> “</span><span class="c25 c13">Andreessen Horowitz Podcast: A Conversation with the Inventor of Spark</span><span class="c13">”: </span><span class="c10">[http://a16z.com/2015/06/24/a16z-podcast-a-conversation-with-the-inventor-of-spark/](https://www.google.com/url?q=http://a16z.com/2015/06/24/a16z-podcast-a-conversation-with-the-inventor-of-spark/&sa=D&usg=AFQjCNH1TEIJ0nFleR2v1rA0uKbAX3umZQ)</span><span class="c13"> </span>
+[\[15\]](#ftnt_ref15)<span class="c13"> “</span><span class="c25 c13">Andreessen Horowitz Podcast: A Conversation with the Inventor of Spark</span><span class="c13">”: </span><span class="c10">[http://a16z.com/2015/06/24/a16z-podcast-a-conversation-with-the-inventor-of-spark/](http://a16z.com/2015/06/24/a16z-podcast-a-conversation-with-the-inventor-of-spark/)</span><span class="c13"> </span>
 
-[\[16\]](#ftnt_ref16)<span class="c13"> “</span><span class="c25 c13">IBM Pours Researchers And Resources Into Apache Spark Project</span><span class="c13">”: </span><span class="c10">[http://techcrunch.com/2015/06/15/ibm-pours-researchers-and-resources-into-apache-spark-project/](https://www.google.com/url?q=http://techcrunch.com/2015/06/15/ibm-pours-researchers-and-resources-into-apache-spark-project/&sa=D&usg=AFQjCNHFFm6S1kbJf8kiWt4EpT4GJOIn7w)</span><span class="c13"> </span>
+[\[16\]](#ftnt_ref16)<span class="c13"> “</span><span class="c25 c13">IBM Pours Researchers And Resources Into Apache Spark Project</span><span class="c13">”: </span><span class="c10">[http://techcrunch.com/2015/06/15/ibm-pours-researchers-and-resources-into-apache-spark-project/](http://techcrunch.com/2015/06/15/ibm-pours-researchers-and-resources-into-apache-spark-project/)</span><span class="c13"> </span>
 
-[\[17\]](#ftnt_ref17)<span class="c13"> </span><span class="c10">[https://spark.apache.org/downloads.html](https://www.google.com/url?q=https://spark.apache.org/downloads.html&sa=D&usg=AFQjCNF223tQufgI-bWJK-L9XL1y_YYetw)</span><span class="c13"> </span>
+[\[17\]](#ftnt_ref17)<span class="c13"> </span><span class="c10">[https://spark.apache.org/downloads.html](https://spark.apache.org/downloads.html)</span><span class="c13"> </span>
 
-[\[18\]](#ftnt_ref18)<span class="c13"> </span><span class="c10">[https://java.com/en/download/](https://www.google.com/url?q=https://java.com/en/download/&sa=D&usg=AFQjCNFODbfMl1s6o1TMuWM5O6KxFdlMpg)</span><span class="c13"> </span>
+[\[18\]](#ftnt_ref18)<span class="c13"> </span><span class="c10">[https://java.com/en/download/](https://java.com/en/download/)</span><span class="c13"> </span>
 
-[\[19\]](#ftnt_ref19)<span class="c13"> </span><span class="c10">[https://www.python.org/downloads/](https://www.google.com/url?q=https://www.python.org/downloads/&sa=D&usg=AFQjCNEtGL1pmazbD2Cn8kP82nW08hA9mA)</span><span class="c13"> </span>
+[\[19\]](#ftnt_ref19)<span class="c13"> </span><span class="c10">[https://www.python.org/downloads/](https://www.python.org/downloads/)</span><span class="c13"> </span>
 
-[\[20\]](#ftnt_ref20)<span class="c13"> </span><span class="c10">[https://github.com/apache/spark/blob/master/examples/src/main/python/pi.py](https://www.google.com/url?q=https://github.com/apache/spark/blob/master/examples/src/main/python/pi.py&sa=D&usg=AFQjCNHzshMJcsWnpLjRAm6jU0IUUSTXSA)</span><span class="c13"> </span>
+[\[20\]](#ftnt_ref20)<span class="c13"> </span><span class="c10">[https://github.com/apache/spark/blob/master/examples/src/main/python/pi.py](https://github.com/apache/spark/blob/master/examples/src/main/python/pi.py)</span><span class="c13"> </span>
 
-[\[21\]](#ftnt_ref21)<span class="c13"> </span><span class="c10">[https://spark.apache.org/docs/latest/ec2-scripts.html](https://www.google.com/url?q=https://spark.apache.org/docs/latest/ec2-scripts.html&sa=D&usg=AFQjCNG4InBUVPt2CaH0cTVZ9cBWbKK4rQ)</span><span class="c13"> </span>
+[\[21\]](#ftnt_ref21)<span class="c13"> </span><span class="c10">[https://spark.apache.org/docs/latest/ec2-scripts.html](https://spark.apache.org/docs/latest/ec2-scripts.html)</span><span class="c13"> </span>
 
-[\[22\]](#ftnt_ref22)<span class="c13"> </span><span class="c10">[http://aws.amazon.com/sdk-for-python/](https://www.google.com/url?q=http://aws.amazon.com/sdk-for-python/&sa=D&usg=AFQjCNHZ3SpFZOvZsKvEg5Aht_doQU-ZoQ)</span><span class="c13"> </span>
+[\[22\]](#ftnt_ref22)<span class="c13"> </span><span class="c10">[http://aws.amazon.com/sdk-for-python/](http://aws.amazon.com/sdk-for-python/)</span><span class="c13"> </span>
 
 [\[23\]](#ftnt_ref23)<span class="c13">Together with </span><span class="c13 c20">ephemeral-hdfs</span><span class="c13">, </span><span class="c13 c20">hadoop-native</span><span class="c13">, </span><span class="c13 c20">mapreduce</span><span class="c13">, </span><span class="c13 c20">persistent-hdfs</span><span class="c13">, </span><span class="c13 c20">scala</span><span class="c13">, and </span><span class="c13 c20">tachyon</span><span class="c13">.</span>
 
-[\[24\]](#ftnt_ref24)<span class="c13"> After this section was written, Amazon announced </span><span class="c10">[improved support for Apache Spark on EMR](https://www.google.com/url?q=http://aws.amazon.com/elasticmapreduce/details/spark/&sa=D&usg=AFQjCNFw_bLgw2IkTVfXFRi7mQHmgfoVbw)</span><span class="c13">. We can now create an Amazon EMR cluster with Apache Spark from the AWS Management Console, AWS CLI, or SDK by choosing AMI 3.8.0 and adding Spark as an application. Amazon EMR currently supports Spark version 1.3.1 and utilizes Hadoop YARN as the cluster manager. To submit applications to Spark on your Amazon EMR cluster, you can add Spark steps with the Step API or interact directly with the Spark API on your cluster's master node.</span>
+[\[24\]](#ftnt_ref24)<span class="c13"> After this section was written, Amazon announced </span><span class="c10">[improved support for Apache Spark on EMR](http://aws.amazon.com/elasticmapreduce/details/spark/)</span><span class="c13">. We can now create an Amazon EMR cluster with Apache Spark from the AWS Management Console, AWS CLI, or SDK by choosing AMI 3.8.0 and adding Spark as an application. Amazon EMR currently supports Spark version 1.3.1 and utilizes Hadoop YARN as the cluster manager. To submit applications to Spark on your Amazon EMR cluster, you can add Spark steps with the Step API or interact directly with the Spark API on your cluster's master node.</span>
 
 [\[25\]](#ftnt_ref25)<span class="c13"> In fact, Spak can run in Hadoop clusters through YARN or Spark's standalone mode, and it can process data in HDFS, HBase, Cassandra, Hive, and any Hadoop InputFormat.</span>
 
-[\[26\]](#ftnt_ref26)<span class="c13"> </span><span class="c10">[http://aws.amazon.com/cli/](https://www.google.com/url?q=http://aws.amazon.com/cli/&sa=D&usg=AFQjCNEeUjetXYx48qPOV4TianISyFKq9w)</span><span class="c13"> </span>
+[\[26\]](#ftnt_ref26)<span class="c13"> </span><span class="c10">[http://aws.amazon.com/cli/](http://aws.amazon.com/cli/)</span><span class="c13"> </span>
 
-[\[28\]](#ftnt_ref28)<span class="c13"> </span><span class="c10">[http://photos.google.com](https://www.google.com/url?q=http://photos.google.com&sa=D&usg=AFQjCNGkD_cbBk3dhWoaqpil2R1BH5eOkw)</span><span class="c13"> </span>
+[\[28\]](#ftnt_ref28)<span class="c13"> </span><span class="c10">[http://photos.google.com](http://photos.google.com)</span><span class="c13"> </span>
 
-[\[29\]](#ftnt_ref29)<span class="c13"> </span><span class="c10">[http://arstechnica.com/gadgets/2015/05/android-ms-google-now-on-tap-shows-contextual-info-at-the-press-of-a-button/](https://www.google.com/url?q=http://arstechnica.com/gadgets/2015/05/android-ms-google-now-on-tap-shows-contextual-info-at-the-press-of-a-button/&sa=D&usg=AFQjCNEK0mmqy6rJ-KH9d1JqRHiB5q1Epw)</span><span class="c13"> </span>
+[\[29\]](#ftnt_ref29)<span class="c13"> </span><span class="c10">[http://arstechnica.com/gadgets/2015/05/android-ms-google-now-on-tap-shows-contextual-info-at-the-press-of-a-button/](http://arstechnica.com/gadgets/2015/05/android-ms-google-now-on-tap-shows-contextual-info-at-the-press-of-a-button/)</span><span class="c13"> </span>
 
-[\[30\]](#ftnt_ref30)<span class="c13"> </span><span class="c10">[http://en.wikipedia.org/wiki/Deep\_learning](https://www.google.com/url?q=http://en.wikipedia.org/wiki/Deep_learning&sa=D&usg=AFQjCNFqY_DelGkEKWYc6gPVRXAKT3Uw5g)</span><span class="c13"> </span>
+[\[30\]](#ftnt_ref30)<span class="c13"> </span><span class="c10">[http://en.wikipedia.org/wiki/Deep\_learning](http://en.wikipedia.org/wiki/Deep_learning)</span><span class="c13"> </span>
 
-[\[31\]](#ftnt_ref31)<span class="c13"> Photo courtesy of Allen Firstenberg, Google Developer Expert: </span><span class="c10">[https://plus.google.com/101852559274654726533/posts/Fp6Zz2fVmVz](https://www.google.com/url?q=https://plus.google.com/101852559274654726533/posts/Fp6Zz2fVmVz&sa=D&usg=AFQjCNFh9J-Ln8X3H6_xosUQ2gunOw4tnw)</span><span class="c13"> </span>
+[\[31\]](#ftnt_ref31)<span class="c13"> Photo courtesy of Allen Firstenberg, Google Developer Expert: </span><span class="c10">[https://plus.google.com/101852559274654726533/posts/Fp6Zz2fVmVz](https://plus.google.com/101852559274654726533/posts/Fp6Zz2fVmVz)</span><span class="c13"> </span>
 
-[\[32\]](#ftnt_ref32)<span class="c13"> </span><span class="c10">[http://research.google.com/archive/spanner.html](https://www.google.com/url?q=http://research.google.com/archive/spanner.html&sa=D&usg=AFQjCNG9zg0_bWzXXClX01JE7ft2Yn4QgQ)</span><span class="c13"> </span>
+[\[32\]](#ftnt_ref32)<span class="c13"> </span><span class="c10">[http://research.google.com/archive/spanner.html](http://research.google.com/archive/spanner.html)</span><span class="c13"> </span>
 
-[\[33\]](#ftnt_ref33)<span class="c13"> </span><span class="c10">[http://kubernetes.io/](https://www.google.com/url?q=http://kubernetes.io/&sa=D&usg=AFQjCNEGMQWLu5IAyFXUxPInHteMwMETZA)</span><span class="c13"> </span>
+[\[33\]](#ftnt_ref33)<span class="c13"> </span><span class="c10">[http://kubernetes.io/](http://kubernetes.io/)</span><span class="c13"> </span>
 
 [\[34\]](#ftnt_ref34)<span class="c13"> Contact Antonio Zugaldia &lt;</span><span class="c10"><antonio@zugaldia.net></span><span class="c13">&gt; if you need access.</span>
 
